@@ -3,7 +3,7 @@ import { Search, Filter, X } from 'lucide-react';
 import { CalendarHeader } from './CalendarHeader';
 import { TaskModal } from './TaskModal';
 import { api, Country } from '../services/api';
-import { Task, Label, labels, Holiday } from '../types/types';
+import { Task, labels, Holiday } from '../types/types';
 import styles from '../styles/Calendar.module.css';
 
 const LOCAL_STORAGE_KEY = 'calendarTasks';

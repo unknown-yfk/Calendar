@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { X } from 'lucide-react';
-import { Task, Label, labels } from '../types/types';
+import { Task, labels } from '../types/types';
 import styles from '../styles/TaskModal.module.css';
 
 interface TaskModalProps {

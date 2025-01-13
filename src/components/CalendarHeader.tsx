@@ -2,7 +2,7 @@
 
 
 import React, { useState } from 'react';
-import { Star, Users, CalendarIcon, ChevronLeft, ChevronRight, Menu } from 'lucide-react';
+import { Star, Users, CalendarIcon, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Country } from '../services/api';
 import styles from '../styles/CalendarHeader.module.css';
 
@@ -25,7 +25,7 @@ export const CalendarHeader: React.FC<CalendarHeaderProps> = ({
   currentDate,
   onDateChange,
 }) => {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [mobileMenuOpen] = useState(false);
 
   const handlePrevious = () => {
     const newDate = new Date(currentDate);
